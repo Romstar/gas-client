@@ -1,19 +1,19 @@
 {
-  "name": "@guilhermetod/gas-client",
+  "name": "@romstar/gas-client-typescript",
   "version": "0.1.0",
   "description": "A client-side utility class that can call server-side Google Apps Script functions",
   "main": "build/index.js",
   "files": [
     "build"
   ],
-  "repository": "https://github.com/guilhermetod/gas-client.git",
+  "repository": "https://github.com/romstar/gas-client.git",
   "author": "Elisha Nuchi",
   "contributors": [
     "Guilherme Tod <guilhermetod@gmail.com> (https://github.com/guilhermetod)"
   ],
   "license": "MIT",
   "scripts": {
-    "prepack": "yarn build",
+    "prepack": "npm build",
     "build": "rm -rf build && tsc"
   },
   "bugs": {
